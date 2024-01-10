@@ -36,7 +36,7 @@ Deploy to network:
 npx hardhat run scripts/deploy.ts --network <NETWORK_NAME>
 ```
 
-### Networks settigs and information
+### Networks settings and information
 
 | Network          | Type    | Scan                                 | RPC                                                        | Network name in config |
 | ---------------- | ------- | ------------------------------------ | ---------------------------------------------------------- | ---------------------- |
