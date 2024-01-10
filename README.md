@@ -1,6 +1,6 @@
 # L2 Networks hardhat starter template
 
-This project will demonstrates differences in OP codes and other technical details when deploying contract to L2 networks
+This project demonstrates differences in OP codes and other technical details when deploying contract to L2 networks.
 
 Node version: `20.10.0`
 
