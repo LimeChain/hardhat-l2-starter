@@ -1,6 +1,15 @@
-import { HardhatUserConfig } from 'hardhat/config';
+import { HardhatUserConfig, task } from 'hardhat/config';
 import '@nomicfoundation/hardhat-toolbox';
 import 'dotenv/config';
+
+task('interact', 'Interact with contract')
+  .addParam('address', "Contract's address")
+  .setAction(async taskArgs => {
+    const { address } = taskArgs;
+    const interact = require('./scripts/interact');
+
+    await interact(address);
+  });
 
 const config: HardhatUserConfig = {
   solidity: {
