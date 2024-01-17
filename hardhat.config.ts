@@ -73,6 +73,16 @@ const config: HardhatUserConfig = {
       url: 'https://sepolia.era.zksync.dev',
       accounts: [process.env.WALLET_PRIVATE_KEY as string],
     },
+    // OP Mainnet
+    optimism: {
+      url: 'https://optimism.meowrpc.com',
+      accounts: [process.env.WALLET_PRIVATE_KEY as string],
+    },
+    // OP Goerli Testnet
+    goerliOptimism: {
+      url: 'https://optimism-goerli.publicnode.com',
+      accounts: [process.env.WALLET_PRIVATE_KEY as string],
+    },
   },
 };
 
