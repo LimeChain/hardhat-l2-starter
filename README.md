@@ -33,7 +33,13 @@ npx hardhat compile
 Deploy to network:
 
 ```shell
-npx hardhat run scripts/deploy.ts --network <NETWORK_NAME>
+npx hardhat deploy --network <NETWORK_NAME>
+```
+
+Interact with contract:
+
+```shell
+npx hardhat interact --address <CONTRACT_ADDRESS> --network <NETWORK_NAME>
 ```
 
 ### Networks settings and information

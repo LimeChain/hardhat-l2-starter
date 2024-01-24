@@ -32,4 +32,14 @@ contract L2ComparisonDemo {
   function getCurrentBlockTimestamp() public view returns (uint) {
     return block.timestamp;
   }
+
+  // Function to return the base fee per gas
+  function getCurrentBaseFee() public view returns (uint) {
+    return block.basefee;
+  }
+
+  // Function to return the address of the L2 block proposer
+  function getCurrentBlockProposerAddress() public view returns (address) {
+    return block.coinbase;
+  }
 }

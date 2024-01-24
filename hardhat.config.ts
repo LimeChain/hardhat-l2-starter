@@ -2,6 +2,12 @@ import { HardhatUserConfig, task } from 'hardhat/config';
 import '@nomicfoundation/hardhat-toolbox';
 import 'dotenv/config';
 
+task('deploy', 'Deploy contract').setAction(async () => {
+  const deploy = require('./scripts/deploy');
+
+  await deploy();
+});
+
 task('interact', 'Interact with contract')
   .addParam('address', "Contract's address")
   .setAction(async taskArgs => {
