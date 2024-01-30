@@ -46,9 +46,9 @@ npx hardhat interact --address <CONTRACT_ADDRESS> --network <NETWORK_NAME>
 
 | Network          | Type    | Scan                                  | RPC                                                        | Network name in config |
 | ---------------- | ------- | ------------------------------------- | ---------------------------------------------------------- | ---------------------- |
-| Arbitrum One     | Mainnet | https://arbiscan.io/                  | https://arbitrum.llamarpc.com                              | `arbitrum`             |
+| Arbitrum One     | Mainnet | https://arbiscan.io/                  | https://arb-pokt.nodies.app                                | `arbitrum`             |
 | Arbitrum Sepolia | Testnet | https://sepolia.arbiscan.io/          | https://arbitrum-sepolia.blockpi.network/v1/rpc/public     | `sepoliaArb`           |
-| Base             | Mainnet | https://basescan.org/                 | https://base.llamarpc.com                                  | `base`                 |
+| Base             | Mainnet | https://basescan.org/                 | https://endpoints.omniatech.io/v1/base/mainnet/public      | `base`                 |
 | Base Sepolia     | Testnet | https://sepolia.basescan.org/         | https://base-sepolia.blockpi.network/v1/rpc/public         | `sepoliaBase`          |
 | Linea            | Mainnet | https://lineascan.build/              | https://1rpc.io/linea                                      | `linea`                |
 | Linea Goerli     | Testnet | https://explorer.goerli.linea.build/  | https://linea-goerli.blockpi.network/v1/rpc/public         | `goerliLinea`          |
@@ -60,3 +60,16 @@ npx hardhat interact --address <CONTRACT_ADDRESS> --network <NETWORK_NAME>
 | zkSync Sepolia   | Testnet | https://sepolia.explorer.zksync.io/   | https://sepolia.era.zksync.dev                             | `sepoliaZkSyncEra`     |
 | Optimism         | Mainnet | https://optimistic.etherscan.io/      | https://optimism.meowrpc.com                               | `optimism`             |
 | Optimism Goerli  | Testnet | https://goerli-optimism.etherscan.io/ | https://optimism-goerli.publicnode.com                     | `goerliOptimism`       |
+
+### Deployed contracts
+
+| Network       | Type    | Scan                                                                       | Contract address                             |
+| ------------- | ------- | -------------------------------------------------------------------------- | -------------------------------------------- |
+| Arbitrum One  | Mainnet | https://arbiscan.io/address/0xC1810fC1250AFf6A5C614492dae0A67D6bdf9da7     | `0xC1810fC1250AFf6A5C614492dae0A67D6bdf9da7` |
+| Base          | Mainnet | https://basescan.org/address/0xC1810fC1250AFf6A5C614492dae0A67D6bdf9da7    | `0xC1810fC1250AFf6A5C614492dae0A67D6bdf9da7` |
+| Linea         | Mainnet | https://lineascan.build/address/0xecf7eF134E47A977e748AD9CAcEde0471b019663 | `0xecf7eF134E47A977e748AD9CAcEde0471b019663` |
+| Taiko         | Testnet | https://explorer.jolnir.taiko.xyz/                                         |
+| Polygon zkEVM | Mainnet | https://zkevm.polygonscan.com/                                             |
+| Scroll        | Mainnet | https://scrollscan.com/                                                    |
+| zkSync        | Mainnet | https://explorer.zksync.io/                                                |
+| Optimism      | Mainnet | https://optimistic.etherscan.io/                                           |
