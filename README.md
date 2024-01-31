@@ -63,16 +63,16 @@ npx hardhat interact --address <CONTRACT_ADDRESS> --network <NETWORK_NAME>
 
 ### Deployed contracts
 
-| Network       | Type    | Scan                                                                       | Contract address                             |
-| ------------- | ------- | -------------------------------------------------------------------------- | -------------------------------------------- |
-| Arbitrum One  | Mainnet | https://arbiscan.io/address/0xC1810fC1250AFf6A5C614492dae0A67D6bdf9da7     | `0xC1810fC1250AFf6A5C614492dae0A67D6bdf9da7` |
-| Base          | Mainnet | https://basescan.org/address/0xC1810fC1250AFf6A5C614492dae0A67D6bdf9da7    | `0xC1810fC1250AFf6A5C614492dae0A67D6bdf9da7` |
-| Linea         | Mainnet | https://lineascan.build/address/0xecf7eF134E47A977e748AD9CAcEde0471b019663 | `0xecf7eF134E47A977e748AD9CAcEde0471b019663` |
-| Taiko         | Testnet | https://explorer.jolnir.taiko.xyz/                                         | ``                                           |
-| Polygon zkEVM | Mainnet | https://zkevm.polygonscan.com/                                             | ``                                           |
-| Scroll        | Mainnet | https://scrollscan.com/                                                    | ``                                           |
-| zkSync        | Mainnet | https://explorer.zksync.io/                                                | ``                                           |
-| Optimism      | Mainnet | https://optimistic.etherscan.io/                                           | ``                                           |
+| Network       | Type    | Scan                                                                               | Contract address                             |
+| ------------- | ------- | ---------------------------------------------------------------------------------- | -------------------------------------------- |
+| Arbitrum One  | Mainnet | https://arbiscan.io/address/0xC1810fC1250AFf6A5C614492dae0A67D6bdf9da7             | `0xC1810fC1250AFf6A5C614492dae0A67D6bdf9da7` |
+| Base          | Mainnet | https://basescan.org/address/0xC1810fC1250AFf6A5C614492dae0A67D6bdf9da7            | `0xC1810fC1250AFf6A5C614492dae0A67D6bdf9da7` |
+| Linea         | Mainnet | https://lineascan.build/address/0xecf7eF134E47A977e748AD9CAcEde0471b019663         | `0xecf7eF134E47A977e748AD9CAcEde0471b019663` |
+| Taiko         | Testnet | https://explorer.jolnir.taiko.xyz/                                                 | ``                                           |
+| Polygon zkEVM | Mainnet | https://zkevm.polygonscan.com/                                                     | ``                                           |
+| Scroll        | Mainnet | https://scrollscan.com/                                                            | ``                                           |
+| zkSync        | Mainnet | https://explorer.zksync.io/                                                        | ``                                           |
+| Optimism      | Mainnet | https://optimistic.etherscan.io/address/0xecf7ef134e47a977e748ad9cacede0471b019663 | `0xecf7ef134e47a977e748ad9cacede0471b019663` |
 
 ### Deployed contracts data
 
@@ -81,3 +81,4 @@ npx hardhat interact --address <CONTRACT_ADDRESS> --network <NETWORK_NAME>
 | Arbitrum One | 9595      | 100000000 | `0xA4b000000000000000000073657175656e636572` |
 | Base         | 9595      | 0         | `0x4200000000000000000000000000000000000011` |
 | Linea        | 9595      | 7         | `0x8F81e2E3F8b46467523463835F965fFE476E1c9E` |
+| Optimism     | 9595      | 0         | `0x4200000000000000000000000000000000000011` |
