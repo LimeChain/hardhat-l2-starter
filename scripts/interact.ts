@@ -6,14 +6,14 @@ async function interact(address: string) {
   const gasUsage = await l2Demo.simulateGasUsage();
   const currentBlockNumber = await l2Demo.getCurrentBlockNumber();
   const currentBlockTimestamp = await l2Demo.getCurrentBlockTimestamp();
-  const currentBaseFee = await l2Demo.getCurrentBaseFee();
+  // const currentBaseFee = await l2Demo.getCurrentBaseFee();
   const blockProposerAddress = await l2Demo.getCurrentBlockProposerAddress();
 
   const contractData = {
     currentBlockNumber: currentBlockNumber.toString(),
     currentBlockTimestamp: currentBlockTimestamp.toString(),
     gasUsage: gasUsage.toString(),
-    currentBaseFee: currentBaseFee.toString(),
+    // currentBaseFee: currentBaseFee.toString(),
     blockProposerAddress,
   };
 
