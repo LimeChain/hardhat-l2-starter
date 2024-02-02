@@ -52,7 +52,7 @@ npx hardhat interact --address <CONTRACT_ADDRESS> --network <NETWORK_NAME>
 | Base Sepolia     | Testnet | https://sepolia.basescan.org/         | https://base-sepolia.blockpi.network/v1/rpc/public         | `sepoliaBase`          |
 | Linea            | Mainnet | https://lineascan.build/              | https://1rpc.io/linea                                      | `linea`                |
 | Linea Goerli     | Testnet | https://explorer.goerli.linea.build/  | https://linea-goerli.blockpi.network/v1/rpc/public         | `goerliLinea`          |
-| Taiko            | Testnet | https://explorer.jolnir.taiko.xyz/    | https://taiko-jolnir.blockpi.network/v1/rpc/public         | `taiko`                |
+| Taiko            | Testnet | https://explorer.katla.taiko.xyz/     | https://rpc.katla.taiko.xyz                                | `taiko`                |
 | Polygon zkEVM    | Mainnet | https://zkevm.polygonscan.com/        | https://polygon-zkevm.drpc.org                             | `polygonZkEvm`         |
 | Scroll           | Mainnet | https://scrollscan.com/               | https://1rpc.io/scroll                                     | `scroll`               |
 | Scroll Sepolia   | Testnet | https://sepolia.scrollscan.dev/       | https://scroll-sepolia.blockpi.network/v1/rpc/publicscroll | `sepoliaScroll`        |
@@ -63,16 +63,16 @@ npx hardhat interact --address <CONTRACT_ADDRESS> --network <NETWORK_NAME>
 
 ### Deployed contracts
 
-| Network       | Type    | Scan                                                                               | Contract address                             |
-| ------------- | ------- | ---------------------------------------------------------------------------------- | -------------------------------------------- |
-| Arbitrum One  | Mainnet | https://arbiscan.io/address/0xC1810fC1250AFf6A5C614492dae0A67D6bdf9da7             | `0xC1810fC1250AFf6A5C614492dae0A67D6bdf9da7` |
-| Base          | Mainnet | https://basescan.org/address/0xC1810fC1250AFf6A5C614492dae0A67D6bdf9da7            | `0xC1810fC1250AFf6A5C614492dae0A67D6bdf9da7` |
-| Linea         | Mainnet | https://lineascan.build/address/0xecf7eF134E47A977e748AD9CAcEde0471b019663         | `0xecf7eF134E47A977e748AD9CAcEde0471b019663` |
-| Taiko         | Testnet | https://explorer.jolnir.taiko.xyz/                                                 | ``                                           |
-| Polygon zkEVM | Mainnet | https://zkevm.polygonscan.com/                                                     | ``                                           |
-| Scroll        | Mainnet | https://scrollscan.com/                                                            | ``                                           |
-| zkSync        | Mainnet | https://explorer.zksync.io/                                                        | ``                                           |
-| Optimism      | Mainnet | https://optimistic.etherscan.io/address/0xecf7ef134e47a977e748ad9cacede0471b019663 | `0xecf7ef134e47a977e748ad9cacede0471b019663` |
+| Network       | Type    | Scan                                                                                | Contract address                             |
+| ------------- | ------- | ----------------------------------------------------------------------------------- | -------------------------------------------- |
+| Arbitrum One  | Mainnet | https://arbiscan.io/address/0xC1810fC1250AFf6A5C614492dae0A67D6bdf9da7              | `0xC1810fC1250AFf6A5C614492dae0A67D6bdf9da7` |
+| Base          | Mainnet | https://basescan.org/address/0xC1810fC1250AFf6A5C614492dae0A67D6bdf9da7             | `0xC1810fC1250AFf6A5C614492dae0A67D6bdf9da7` |
+| Linea         | Mainnet | https://lineascan.build/address/0xecf7eF134E47A977e748AD9CAcEde0471b019663          | `0xecf7eF134E47A977e748AD9CAcEde0471b019663` |
+| Taiko         | Testnet | https://explorer.katla.taiko.xyz/address/0xecf7eF134E47A977e748AD9CAcEde0471b019663 | `0xecf7eF134E47A977e748AD9CAcEde0471b019663` |
+| Polygon zkEVM | Mainnet | https://zkevm.polygonscan.com/                                                      | ``                                           |
+| Scroll        | Mainnet | https://scrollscan.com/                                                             | ``                                           |
+| zkSync        | Mainnet | https://explorer.zksync.io/                                                         | ``                                           |
+| Optimism      | Mainnet | https://optimistic.etherscan.io/address/0xecf7ef134e47a977e748ad9cacede0471b019663  | `0xecf7ef134e47a977e748ad9cacede0471b019663` |
 
 ### Deployed contracts data
 
@@ -82,3 +82,4 @@ npx hardhat interact --address <CONTRACT_ADDRESS> --network <NETWORK_NAME>
 | Base         | 9595      | 0         | `0x4200000000000000000000000000000000000011` |
 | Linea        | 9595      | 7         | `0x8F81e2E3F8b46467523463835F965fFE476E1c9E` |
 | Optimism     | 9595      | 0         | `0x4200000000000000000000000000000000000011` |
+| Taiko        | 9595      | 0         | `0xd181216b3Dff050e7Ed97599501E5Be4F9779E00` |

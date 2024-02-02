@@ -60,7 +60,7 @@ const config: HardhatUserConfig = {
     },
     // Taiko Testnet
     taiko: {
-      url: 'https://taiko-jolnir.blockpi.network/v1/rpc/public',
+      url: 'https://rpc.katla.taiko.xyz',
       accounts: [process.env.WALLET_PRIVATE_KEY as string],
     },
     // Polygon zkEVM Mainnet
