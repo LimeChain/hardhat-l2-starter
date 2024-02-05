@@ -71,7 +71,7 @@ npx hardhat interact --address <CONTRACT_ADDRESS> --network <NETWORK_NAME>
 | Taiko         | Testnet | https://explorer.katla.taiko.xyz/address/0xecf7eF134E47A977e748AD9CAcEde0471b019663 | `0xecf7eF134E47A977e748AD9CAcEde0471b019663` |
 | Polygon zkEVM | Mainnet | https://zkevm.polygonscan.com/address/0xecf7eF134E47A977e748AD9CAcEde0471b019663    | `0xecf7eF134E47A977e748AD9CAcEde0471b019663` |
 | Scroll        | Mainnet | https://scrollscan.com/address/0xecf7eF134E47A977e748AD9CAcEde0471b019663           | `0xecf7eF134E47A977e748AD9CAcEde0471b019663` |
-| zkSync        | Mainnet | https://explorer.zksync.io/                                                         | ``                                           |
+| zkSync        | Mainnet | https://explorer.zksync.io/address/0x4a9dAb59BF56A83b43DE07BafD342705a1854B04       | `0x4a9dAb59BF56A83b43DE07BafD342705a1854B04` |
 | Optimism      | Mainnet | https://optimistic.etherscan.io/address/0xecf7ef134e47a977e748ad9cacede0471b019663  | `0xecf7ef134e47a977e748ad9cacede0471b019663` |
 
 ### Deployed contracts data
@@ -85,3 +85,4 @@ npx hardhat interact --address <CONTRACT_ADDRESS> --network <NETWORK_NAME>
 | Taiko         | 9595      | 0         | `0xd181216b3Dff050e7Ed97599501E5Be4F9779E00` |
 | Scroll        | 9595      | N/A       | `0x5300000000000000000000000000000000000005` |
 | Polygon zkEVM | 9595      | N/A       | `0x148Ee7dAF16574cD020aFa34CC658f8F3fbd2800` |
+| zkSync        | 3017      | 0         | `0x0000000000000000000000000000000000008001` |
