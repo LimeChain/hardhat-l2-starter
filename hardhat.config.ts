@@ -30,7 +30,7 @@ const config: HardhatUserConfig = {
   networks: {
     // Arbitrum Mainnet
     arbitrum: {
-      url: 'https://arbitrum.llamarpc.com',
+      url: 'https://arb-pokt.nodies.app',
       accounts: [process.env.WALLET_PRIVATE_KEY as string],
     },
     // Arbitrum Sepolia Testnet
@@ -40,7 +40,7 @@ const config: HardhatUserConfig = {
     },
     // Base Mainet
     base: {
-      url: 'https://base.llamarpc.com',
+      url: 'https://endpoints.omniatech.io/v1/base/mainnet/public',
       accounts: [process.env.WALLET_PRIVATE_KEY as string],
     },
     // Base Sepolia Testnet
@@ -60,7 +60,7 @@ const config: HardhatUserConfig = {
     },
     // Taiko Testnet
     taiko: {
-      url: 'https://taiko-jolnir.blockpi.network/v1/rpc/public',
+      url: 'https://rpc.katla.taiko.xyz',
       accounts: [process.env.WALLET_PRIVATE_KEY as string],
     },
     // Polygon zkEVM Mainnet

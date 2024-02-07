@@ -9,11 +9,21 @@ async function interact(address: string) {
   const currentBaseFee = await l2Demo.getCurrentBaseFee();
   const blockProposerAddress = await l2Demo.getCurrentBlockProposerAddress();
 
-  console.log('gasUsage', gasUsage.toString());
-  console.log('currentBlockNumber', currentBlockNumber.toString());
-  console.log('currentBlockTimestamp', currentBlockTimestamp.toString());
-  console.log('currentBaseFee', currentBaseFee.toString());
-  console.log('blockProposerAddress', blockProposerAddress);
+  const contractData = {
+    currentBlockNumber: currentBlockNumber.toString(),
+    currentBlockTimestamp: currentBlockTimestamp.toString(),
+    gasUsage: gasUsage.toString(),
+    currentBaseFee: currentBaseFee.toString(),
+    blockProposerAddress,
+  };
+
+  console.table(contractData);
+
+  // console.log('currentBlockNumber', currentBlockNumber.toString());
+  // console.log('currentBlockTimestamp', currentBlockTimestamp.toString());
+  // console.log('gasUsage', gasUsage.toString());
+  // console.log('currentBaseFee', currentBaseFee.toString());
+  // console.log('blockProposerAddress', blockProposerAddress);
 }
 
 module.exports = interact;
